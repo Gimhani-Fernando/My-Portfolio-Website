@@ -86,7 +86,7 @@ nav ul li a:hover::after{
 /*header*/
 #header{
     width: 100%;
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .container{
@@ -355,8 +355,7 @@ ul {
 
 .experience-list{
     display: flex;
-    align-items: center;
-    justify-content: center;    
+    margin-left: 80px;
     position: relative;
     margin-top: 50px;
 }
@@ -397,25 +396,15 @@ ul {
       position: absolute;
       top: 0;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-28500%);
       width: 2px;
       height: 100%;
       background-color: gray;
     }
     .experience-list ul li {
-      width: 50%;
+      width: 100%;
       position: relative;
       margin-bottom: 50px;
-    }
-    .experience-list ul li:nth-child(odd) {
-      float: left;
-      clear: right;
-      transform: translateX(-30px);
-      border-radius: 20px 0px 20px 20px;
-    }
-    .experience-list ul li:nth-child(even) {
-      float: right;
-      clear: left;
       transform: translateX(30px);
       border-radius: 0px 20px 20px 20px;
     }
@@ -427,12 +416,6 @@ ul {
       border-radius: 50%;
       background-color: gray;
       top: 0px;
-    }
-    .experience-list ul li:nth-child(odd)::before {
-      transform: translate(50%, -50%);
-      right: -30px;
-    }
-    .experience-list ul li:nth-child(even)::before {
       transform: translate(-50%, -50%);
       left: -30px;
     }
